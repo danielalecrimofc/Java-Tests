@@ -27,8 +27,7 @@ public class media {
         com a condição proposta dentro do if */
         if(media_nota >= 5){
             System.out.println("Passou!,sua média é " + media_nota);
-        }
-        else{
+        }else{
             System.out.println("Não passou!,sua média é " + media_nota);   
         } 
     }
