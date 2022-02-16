@@ -72,6 +72,7 @@ public class myIMC {
                         int i = 0;
                         while(i<1){
                             System.out.println("Opção Inválida");
+                            i++;
                             break;
                   }
                }
