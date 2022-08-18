@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class DiagN {
+    public static void main(String[] args) {
+        int [][]matriz = new int [3][3];
+        int diagonalp = 0;
+        Scanner input = new Scanner(System.in);
+        for(int i = 0;i < 3;i++)
+            for(int j = 0;j < 3;j++){
+                System.out.printf("Matriz [%d][%d]",i,j);
+                matriz[i][j] = input.nextInt();
+            }
+        
+        for(int i = 0;i < 3;i++)
+            for(int j = 0;j < 3;j++){
+                if(i == j){
+                    diagonalp = diagonalp + matriz[i][j];
+                }
+        }
+        
+        System.out.println("A soma da diagonal principal é: " + diagonalp);
+}
+}
